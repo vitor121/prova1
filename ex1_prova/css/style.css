@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFF;
+}
+
+#wrapper {
+  margin: auto;  
+  position: relative;
+  text-align: center;
+}
+
+button{
+    position: relative;
+    top: 45px;
+    width: 200px;
+    height: 154px;
+    border-style: none;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #574f53;
+    box-shadow: 0 5px 0 #31424C;
+        border-radius: 53%;
+}
+
+div#dado{
+    margin: 0 auto;
+    margin-top: 135px;
+    width: 300px;
+    height: 300px;
+    background-color: #C75151;
+    border-radius: 7%;
+}
+
+.container {
+    text-align: center;
+}
+
+#um {
+    text-align: center;
+    position: relative;
+    top: 20%;
+    font-size: 10rem;
+    color: #574F53;
+}
+
+#dois, #tres {
+    text-align: center;
+    position: relative;
+    top: 20%;
+    font-size: 10rem;
+    transform: rotate(45deg);
+    color: #574F53;
+}
+
+#quatro {
+    text-align: center;
+    position: relative;
+    top: 5%;
+    font-size: 10rem;
+    line-height: 80%;
+    color: #31424C;
+}
+
+#cinco{
+    text-align: center;
+    position: relative;
+    top: 15%;
+    font-size: 10rem;
+    color: #574F53;
+    line-height: 45%;
+}
+
+#seis {
+    text-align: center;
+    position: relative;
+    top: 10%;
+    font-size: 10rem;
+    color: #574F53;
+    line-height: 50%;
+}
